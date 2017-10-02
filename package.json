@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node app.js",
-    "start": "pwd && ls && node app.js",
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js",
     "test": "./node_modules/mocha/bin/_mocha"
   },
   "author": "wahengchang",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "mocha": "^3.2.0",
     "nock": "^9.0.11",
+    "nodemon": "^1.12.1",
     "should": "^11.2.1",
     "supertest": "^3.0.0"
   },
